@@ -1,0 +1,31 @@
+ul{
+  list-style:none;
+  padding: 20px;
+  display: flex;
+  flex-direction: column
+}
+
+li{
+  display: inline-flex;
+  justify-self: center;
+  margin: 10px;
+}
+
+img {
+  width: 300px;
+  height: auto
+}
+
+figure {
+  margin: 0
+}
+
+figcaption {
+  text-align:center;
+  font-style: italic
+}
+
+section {
+  display: flex;
+  flex-direction: column
+}

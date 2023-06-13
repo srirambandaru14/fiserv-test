@@ -1,0 +1,8 @@
+<ul class="container">
+  <li *ngFor="let dogImage of dogs">
+    <section >
+    <img [src]="dogImage" alt="dog image" />
+    <figcaption>breed type {{breedType}} </figcaption>
+    </section>
+  </li>
+</ul>
